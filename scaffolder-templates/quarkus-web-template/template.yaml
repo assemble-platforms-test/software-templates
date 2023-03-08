@@ -133,7 +133,7 @@ spec:
           source_repository: https://github.com/${{ (parameters.repoUrl | parseRepoUrl).owner }}/${{ (parameters.repoUrl | parseRepoUrl).repo }}
           repository_name: ${{ (parameters.repoUrl | parseRepoUrl).repo }}
           git_owner: ${{ (parameters.repoUrl | parseRepoUrl).owner }}
-          cluster: baseurl.cluster-example.com
+          cluster: .apps.cluster-vrxfs.vrxfs.sandbox879.opentlc.com
           namespace: ${{ parameters.component_id }}-dev
           image_host: ${{ parameters.image_host }}
           image_name: ${{ parameters.image_name }}
